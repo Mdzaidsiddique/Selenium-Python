@@ -10,9 +10,38 @@
 
 # webdriver is a module which is available in selenium package
 from selenium import webdriver
+from selenium.webdriver.common.by import By
+
+# launch browser
 driver = webdriver.Chrome()
+
+# open a website
 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 
-assert "OrangeHRM" in driver.title
+# Locate an input field and enter text
+username = driver.find_element(*(By.CSS_SELECTOR, "input[placeholder='Username']"))
+password = driver.find_element(*(By.CSS_SELECTOR, "input[placeholder='Password']"))
 
-print(driver.title)
+username.clear()
+username.send_keys("Admin")
+password.clear()
+password.send_keys("admin123")
+
+# find_element(): find all the matching elements and go with the first one
+# find_elements(): find all the matching elements
+login = driver.find_element(*(By.CSS_SELECTOR, "button[type='submit']"))
+login.click()
+
+actual_title = driver.title
+expected_title = 'OrangeHRM Live'
+
+if actual_title == expected_title:
+    print("Login successful and test case got passed")
+else:
+    print("Login failed and test case got failed")
+
+# close a browser
+driver.close() # close one browser
+driver.quit() # close all the browsers
+
+
