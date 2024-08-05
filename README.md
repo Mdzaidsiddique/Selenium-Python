@@ -20,6 +20,7 @@ To get started with the scripts in this repository, follow these steps:
 
 - Python 3.x
 - pip (Python package installer)
+- IDE (Suggested- PyCharm)
 
 ### Installation
 
@@ -29,9 +30,9 @@ To get started with the scripts in this repository, follow these steps:
    cd selenium-python
 2. **Create a virtual environment (optional but recommended)**:
    
-3. **Install the required packages**:
+3. **Install Selenium**:
    ```sh
-   pip install -r requirements.txt
+   pip install selenium
 
 4. **Download the necessary WebDrivers for your browsers**:
 
