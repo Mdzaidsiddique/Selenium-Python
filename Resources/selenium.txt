@@ -1,0 +1,33 @@
+FAQ
+1) which swlwnium component is best?
+selenium Web Driver
+
+2) What are the four paramenters of selenium?
+URL, host, browser and port number
+
+3) which XPath is best in selenium?
+Relative XPath
+
+
+# web driver is one of the components in selenium
+# web driver is a module(functions, classes, etc) in python, and interface in java
+# web driver is an API
+
+# Architecture of web application (Request <--> Response)
+# 1: GUI (Presentation layer) --> (Application/web Server--Business Logic)--> database (Backend Layer)
+# GUI testing-------------------> API testing-------------------------------> Database testing
+
+# There are so many API's in business layer
+# API : mediators between GUI and database
+
+# Why web driver is and APi?
+# automation code ----> Web driver(API's) -----> AUT(Application under Test: Browser)
+
+
+# architecture
+# selenium 3
+# selenium language binding-------(JSON wire protocol)----->Browser Drivers--------(W3C)----->Browsers
+
+# selenium 4
+# selenium language binding --(W3C)--> Browser Drivers -----(W3C)-----> Browsers
+
