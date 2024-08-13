@@ -8,13 +8,12 @@ from selenium.webdriver import ActionChains, Keys
 from selenium.webdriver.common import keys
 from selenium.webdriver.common.by import By
 
-def chrome_setup():
-    driver = webdriver.Chrome()
-    # ops = webdriver.ChromeOptions()
-    # ops.headless = True
-    return driver
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-gpu")
+chrome_options.add_argument("--no-sandbox")
 
-driver = chrome_setup()
+driver = webdriver.Chrome(options=chrome_options)
 
 driver.get("https://www.apple.com/in/")
 driver.maximize_window()

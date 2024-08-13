@@ -10,7 +10,7 @@ Debug, Info, Warning, Error, Critical
 import logging
 
 # logging.basicConfig(level=logging.DEBUG)
-logging.basicConfig(filename=r'/12_misceleniuos/04_test.log',
+logging.basicConfig(filename=r'C:\Users\mdzaids\Desktop\Selenium-Python\16_logging\01_test.log',
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.DEBUG)
 

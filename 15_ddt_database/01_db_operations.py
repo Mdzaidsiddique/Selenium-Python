@@ -1,5 +1,5 @@
 # mySQL database connector
-# selenium is ment for automating web not ment for database testing
+# selenium is ment for automating web not ment for database testing, thease are data driven testing not database testig
 # we can perform crud operation using selenium python
 
 # install mySQL connector for python # mysql-connector-python # select, insert, update, delete

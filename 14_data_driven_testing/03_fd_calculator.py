@@ -55,9 +55,8 @@ for row in range(2, rows+1):
         excel_utils.fill_red_colour(file, "data", row, 8)
 
     # clear everything
-    driver.find_element(By.XPATH, '//*[@id="fdMatVal"]/div[2]/a[2]/img')
+    driver.find_element(By.XPATH, '//*[@id="fdMatVal"]/div[2]/a[2]/img').clear()
 
     time.sleep(3)
+    
 driver.quit()
-
-
