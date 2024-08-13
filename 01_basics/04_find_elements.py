@@ -19,3 +19,9 @@ driver.find_element(By.NAME, "email").send_keys("<EMAIL>")
 
 # find_elements(): captured multiple elements as List Collection, not raised any Exception
 # if no element mathces then find_elements() will returned empty List
+
+
+"""
+findElement: Returns the first web element that matches the locator. If no element is found, it throws a NoSuchElementException.
+findElements: Returns a list of web elements that match the locator. If no elements are found, it returns an empty list.
+"""

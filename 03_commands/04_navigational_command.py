@@ -12,7 +12,7 @@ driver.maximize_window()
 
 driver.back()
 driver.forward()
-
 driver.refresh()
 
+driver.close()
 driver.quit()
