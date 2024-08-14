@@ -1,7 +1,6 @@
 # To handle dynamic content, use waits. There are two types: implicit and explicit waits.
 
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 
 chrome_driver = webdriver.Chrome()

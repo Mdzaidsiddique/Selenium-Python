@@ -1,4 +1,5 @@
-# Synchronization problem: sometimes browser takes time to load elements on webpages, if we try to access that elements before loaded then will get synchronization problem
+# Synchronization problem: sometimes browser takes time to load elements on webpages, if we try to access that elements
+# before loaded then will get synchronization problem
 
 # to overcome this problem we have three ways
 # 1) time.sleep(t) : not really wait statement, it only pauses the code execution (from python not from webdriver)
@@ -7,12 +8,10 @@
 #                  : if element is not present within the t time, then we can get exception
 
 # 2) implicit wait
-
-# 3) explisit
+# 3) explicit wait
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 driver = webdriver.Chrome()
 
 driver.get("https://google.com")

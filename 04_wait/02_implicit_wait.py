@@ -7,10 +7,10 @@ driver = webdriver.Chrome()
 driver.get("https://google.com")
 driver.implicitly_wait(10) #applicable for all the below statements, untill quit() or close()
 # default time is zero
-# wait for element untill element is not loaded, once element is availabe it will perform action
+# wait for element until element is not loaded, once element is available it will perform action
 # single statement
-# performance will not be reduce
-# if element is not loaded untill maxx defined time, then we can get exception
+# performance will not be reduced
+# if element is not loaded until maximum defined time, then we can get exception
 driver.maximize_window()
 
 search_box = driver.find_element(By.NAME, "q")

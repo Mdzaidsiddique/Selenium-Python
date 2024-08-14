@@ -29,10 +29,6 @@ element_by_class = driver.find_elements(By.CLASS_NAME, value="header-banner ")
 # about = driver.find_element(By.PARTIAL_LINK_TEXT, "out").click()
 time.sleep(3)
 
-
-
-
-
 # search_box.send_keys("python")
 # search_box.send_keys(Keys.ENTER)
 

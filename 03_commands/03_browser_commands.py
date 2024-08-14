@@ -16,5 +16,4 @@ driver.maximize_window()
 # driver.find_element(By.XPATH, "//*[@id='app']/div[1]/div/div[1]/div/div[2]/div[3]/div[2]/p[2]/a").click()
 
 driver.close()
-
 driver.quit()

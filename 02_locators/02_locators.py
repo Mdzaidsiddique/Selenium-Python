@@ -5,7 +5,7 @@ driver = webdriver.Chrome()
 
 driver.get("https://bugbug.io/blog/testing-frameworks/best-selenium-practice-websites/")
 
-driver.maximize_window() #maximize hte window
+driver.maximize_window() # maximize the window
 
 # by class name
 multiple_elements = driver.find_elements(By.CLASS_NAME, "MobileContentMenu_MobileContentMenu__menuListElement__tJqPg")

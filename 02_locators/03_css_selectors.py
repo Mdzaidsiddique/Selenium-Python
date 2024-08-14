@@ -27,7 +27,3 @@ driver.find_element(By.CSS_SELECTOR, "input[name = email]").send_keys("abc@faceb
 # Tag class and attribute: tag.class[attribute = value]
 driver.find_element(By.CSS_SELECTOR, "input._6luy[name = pass]").send_keys("Abc#123")
 time.sleep(2)
-
-
-
-
