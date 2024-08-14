@@ -13,7 +13,7 @@ driver.maximize_window()
 
 # Explicit wait works based on the condition not based on time
 # my_wait = WebDriverWait(driver, 10) # explicit wait declaration
-# here 10 is the cut off time, in line 22 if element is nto present then condition will not true, and untill method will keeep on waiting
+# here 10 is the cut off time, in line 22 if element is not present then condition will not true, and untill method will keeep on waiting
 # to exit from that situation we provide cutoff time, to execute next statements
 
 my_wait = WebDriverWait(driver, 10, poll_frequency=2, ignored_exceptions=[NoSuchElementException,

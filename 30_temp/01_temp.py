@@ -1,13 +1,26 @@
- # explicit wait
+# stale element reference exception, how to handle it(try-except)
+# cotains()
+# xPath axes: child-to parent
 
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.common.by import By
+# order(based on performance):, id, name, className, CSSSelector, xPath, tagName, linkedText, PartialLinedText
 
-driver = webdriver.Chrome()
-driver.get('https://web.whatsapp.com')
+# Exceptions in selenium
+# NoSuchElement exception
+# time out ex
 
-wait = WebDriverWait(driver, 10)
-el = wait.until(expected_conditions.text_to_be_present_in_element((By.LINK_TEXT, 'Get the app')))
+# implicit: NoSuchElements
+# explicit: timeOutException
+
+"""
+locators practice ... very imp, dynamic elements
+waits
+tab and window switching
+frames switching
+alert handling
+select class
+actionChains
+page Refresh, (refresh, actionChain, javascript)
+how to upload a file using selenium (type attribute should be 'file' in case of input tag)
+
+amazon, flipkart
+"""

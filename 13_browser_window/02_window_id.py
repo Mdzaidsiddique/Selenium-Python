@@ -43,6 +43,4 @@ for win_id in window_ids:
     if driver.title != "OrangeHRM, Inc":
         driver.close()
 
-time.sleep(3)
-
 driver.quit()

@@ -2,7 +2,7 @@
 xPath: it is defined as XML path
 It is the syntax or language for finding any web elements by using XML path expression
 Find location of any web element by using HTML DOM Structure
-Can be used to nevigate through elements and attribute in DOM
+Can be used to navigate through elements and attribute in DOM
 xPath is the address of the element
 
 Types of xPath
@@ -11,7 +11,6 @@ Types of xPath
 
 2) Relative (partial) xPath: start from immidiate parent node
                     //*[@id="app"]/div[1]/div/div[1]/div/div[1]/img
-
 
 inspect--> right click on html tag-->copy-->copy xpath
 SelectorHub extension
@@ -49,7 +48,7 @@ time.sleep(2)
 
 """
 Prefer relative Xpath over abs xpath, because
-- if developers intoduce new element then abs xpth will be broken
+- if developers intoduce new element then abs xPath will be broken
 - If Location of element will changed then abs xpath will be broken
 absolute xPath is unstable
 """

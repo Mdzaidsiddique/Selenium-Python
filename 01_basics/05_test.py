@@ -16,6 +16,3 @@ print(email_box.text) #text will always return Inner Text of the element: <div>I
 # .get_attribute(attribute) #return value of any attribute value of a web element
 print(email_box.get_attribute("value"))
 print(email_box.get_attribute("id"))
-
-
-
