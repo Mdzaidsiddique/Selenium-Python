@@ -13,6 +13,6 @@ driver.maximize_window()
 driver.implicitly_wait(10)
 
 # download at default location
-driver.find_element(By.XPATH,'//*[@id="resume-link-1"]').click()
+driver.find_element(By.ID,'resume-link-1').click()
 
 driver.close()
