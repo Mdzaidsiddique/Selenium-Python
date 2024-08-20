@@ -19,8 +19,8 @@ driver.implicitly_wait(10)
 
 # driver.switch_to.frame(frame name/ frame ID/ capture frame as web elements and pass / index (0,1,2,3..))
 
-frame = driver.find_element(By.ID, "")
-driver.switch_to.frame(frame)
+frame_element = driver.find_element(By.ID, "")
+driver.switch_to.frame(frame_element)
 # driver.find_elements().click()
 
 # once our job is done to the first frame then we have to switch back to main frame, then we can switch to aother frmae

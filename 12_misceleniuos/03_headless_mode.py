@@ -4,9 +4,6 @@ headless mode: script execute in backend
 '''
 
 from selenium import webdriver
-from selenium.webdriver import ActionChains, Keys
-from selenium.webdriver.common import keys
-from selenium.webdriver.common.by import By
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--headless")

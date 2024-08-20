@@ -41,7 +41,7 @@ print(f"after detetioon {len(cookies)}")
 # Delete all the cookie from browser
 driver.delete_all_cookies()
 cookies = driver.get_cookies() # again need to capture all the cookies
-print(f"after deteting of all cookies : {len(cookies)}")
+print(f"after deleting of all cookies : {len(cookies)}")
 
 time.sleep(2)
 driver.close()
