@@ -55,3 +55,6 @@ page Refresh:  (driver.back(), forward(), refresh(),
 how to upload a file using selenium (type attribute should be 'file' in case of input tag, otherwise with js
 execute script need to add the set attribute type as file)
 """
+
+# problem with selenium RC and grid
+# how to create a grid
