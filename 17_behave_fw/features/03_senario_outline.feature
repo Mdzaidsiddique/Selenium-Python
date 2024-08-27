@@ -20,3 +20,4 @@ Feature: OrangeHRM login
       | adminxyz | admin123 |
       | admin    | adminxyz |
 
+# 02_step_parameter.py is there for this
