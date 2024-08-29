@@ -25,7 +25,7 @@ print(len(checkboxes))
 # select multiple checkboxes based on choice
 for checkbox in checkboxes:
     days = checkbox.get_attribute('id')
-    if days == "monday" or days == "fiday":
+    if days == "monday" or days == "friday":
         checkbox.click()
 
 # select last two checkboxes

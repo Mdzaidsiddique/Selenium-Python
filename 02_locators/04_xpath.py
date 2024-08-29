@@ -44,11 +44,10 @@ driver.find_element(By.XPATH, "//*[starts-with(@aria-label, 'Pass') ]")
 
 # text() : //*a[text()='Log In']
 
-time.sleep(2)
 
 """
 Prefer relative Xpath over abs xpath, because
-- if developers intoduce new element then abs xPath will be broken
-- If Location of element will changed then abs xpath will be broken
+- if developers introduce new element then abs xPath will break
+- If Location of element will changed then abs xpath will break
 absolute xPath is unstable
 """

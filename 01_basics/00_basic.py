@@ -11,8 +11,8 @@ print(selenium.__version__)
 """
 Java, Python, C#, Ruby
        |
-JSON wire protocol (http)
-w3c standard protocol
+JSON Wire Protocol: This was the original protocol used by Selenium to communicate between the client library and the browser drivers. It sends HTTP requests in JSON format to perform actions in the browser.
+W3C WebDriver Protocol: This is the newer, standardized protocol that Selenium 4 and above use to interact with browsers. It ensures better compatibility and standardization across different browsers.
        |
 Web drivers
        |

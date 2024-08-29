@@ -1,10 +1,7 @@
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.select import Select
-from selenium.webdriver.support.ui import WebDriverWait
-import openpyxl
 import time
 import excel_utils
 
@@ -14,7 +11,7 @@ driver.get("https://www.moneycontrol.com/fixed-income/calculator/state-bank-of-i
 
 driver.maximize_window()
 
-file = r"C:\Users\mdzaids\Desktop\Selenium-Python\14_data_driven_testing\03_fd_calculator.xlsx"
+file = r"/Resources/14_data_driven_testing/03_fd_calculator.xlsx"
 
 rows = excel_utils.get_row_ount(file, "data")
 columns = excel_utils.get_column_ount(file, "data")

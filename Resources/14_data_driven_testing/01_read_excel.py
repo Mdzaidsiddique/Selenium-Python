@@ -1,6 +1,6 @@
 import openpyxl
 
-file_path = r"C:\Users\mdzaids\Desktop\Selenium-Python\14_data_driven_testing\sample.xlsx"
+file_path = r"/Resources/14_data_driven_testing/sample.xlsx"
 
 # file -> workbook -> sheets -> rows -> cells
 
