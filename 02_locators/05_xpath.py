@@ -12,9 +12,9 @@ element = driver.find_element(By.XPATH, "//*[@id='leftcontainer']/table/tbody/tr
 print(element) #Dr. Lal Pathlabs Ltd
 
 
-# parent:  /parent::tagname
-#/ancestor::
-#/child::
+# parent: /parent::tagname
+# /ancestor::
+# /child::
 # /decendant::* (all the decendant node)
 # /following::*, following-siblng::* -->above self
 # /preceding::*, /preceding-sibling::* -->below self

@@ -1,6 +1,6 @@
 import openpyxl
 
-file = r"C:\Users\mdzaids\Desktop\Selenium-Python\14_data_driven_testing\sample2.xlsx"
+file = r"/Resources/14_data_driven_testing/sample2.xlsx"
 
 
 

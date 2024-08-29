@@ -4,7 +4,7 @@
 # to overcome this problem we have three ways
 # 1) time.sleep(t) : not really wait statement, it only pauses the code execution (from python not from webdriver)
 #                  : even if element is present still it will wait t time to perform action
-#                  : not recomonded: performace of the script is very poop
+#                  : not recomonded: performace of the script is very poor
 #                  : if element is not present within the t time, then we can get exception
 
 # 2) implicit wait

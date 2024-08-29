@@ -1,7 +1,7 @@
 """
 Logging:
 Logging is a very useful tools in a programmers toolbox,
-It can help you develop better understanding of the flow of hte program and discover scenario that you might
+It can help you develop better understanding of the flow of the program and discover scenario that you might
 not have thought of while developing
 
 Log Level:

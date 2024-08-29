@@ -8,10 +8,10 @@ driver.get("https://www.apple.com/in/")
 driver.maximize_window()
 driver.implicitly_wait(10)
 
-# path = "C:\\Users\\mdzaids\\Desktop\\Selenium-Python\\12_misceleniuos\\homepage.png" # doubling \\
-# path = r"C:\Users\mdzaids\Desktop\Selenium-Python\12_misceleniuos\homepage.png" #raw string
+# path = "C:\\Users\\mdzaids\\Desktop\\Selenium-Python\\12_miscellaneous\\homepage.png" # doubling \\
+# path = r"C:\Users\mdzaids\Desktop\Selenium-Python\12_miscellaneous\homepage.png" #raw string
 
-# driver.save_screenshot(r"C:\Users\mdzaids\Desktop\Selenium-Python\12_misceleniuos\homepage.png")
+# driver.save_screenshot(r"C:\Users\mdzaids\Desktop\Selenium-Python\12_miscellaneous\homepage.png")
 
 driver.save_screenshot(os.getcwd()+"\homepage1.png")
 

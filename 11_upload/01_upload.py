@@ -1,4 +1,3 @@
-import time
 from selenium import webdriver
 from selenium.webdriver import ActionChains, Keys
 from selenium.webdriver.common import keys
@@ -12,9 +11,6 @@ driver.implicitly_wait(5)
 
 upload = driver.find_element(By.ID, 'fileInput')
 upload.send_keys(r"C:\Users\mdzaids\Desktop\Selenium-Python\11_upload\xpath pdf.pdf")
-
-time.sleep(2)
-
 driver.close()
 
 """

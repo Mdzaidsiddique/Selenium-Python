@@ -26,4 +26,16 @@ driver.find_element(By.CSS_SELECTOR, "input[name = email]").send_keys("abc@faceb
 
 # Tag class and attribute: tag.class[attribute = value]
 driver.find_element(By.CSS_SELECTOR, "input._6luy[name = pass]").send_keys("Abc#123")
-time.sleep(2)
+
+
+"""
+*) universal selector: select all elements in a document
+tagName : tag name
+.className : class selector
+#idSelecotor : id selector
+[type='submit'] : attribute selector
+div p : ancestor descendant
+ul > li : parent > child
+h1 + p : adjusent + sibling (h1 + p selects the first <p> element immediately following any <h1> element)
+h1 ~ p : General Sibling Selector (h1 ~ p selects all <p> elements that are siblings of any <h1> element)
+"""
